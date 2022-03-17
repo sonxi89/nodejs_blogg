@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonxi89/nodejs_blogg.git"
+  },
+  "keywords": [
+    "nodelj",
+    "blogg"
+  ],
+  "author": "sonnguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonxi89/nodejs_blogg/issues"
+  },
+  "homepage": "https://github.com/sonxi89/nodejs_blogg#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
